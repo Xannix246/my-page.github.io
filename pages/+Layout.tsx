@@ -13,7 +13,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 const Content = ({ children }: { children: React.ReactNode }) => {
   return (
     <div id="page-container">
-      <div id="page-content" className={"p-5 pb-12 min-h-screen"}>
+      <div id="page-content" className={"min-h-screen min-w-screen w-full h-full"}>
         {children}
       </div>
     </div>

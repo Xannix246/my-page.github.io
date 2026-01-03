@@ -1,7 +1,7 @@
-export default function Page() {
-  return (
-    <>
-      <h1>hello world</h1>
-    </>
-  );
-}
+import Main from "../../src/pages/main/Main";
+
+const Page = () => {
+  return <Main />;
+};
+
+export default Page;
